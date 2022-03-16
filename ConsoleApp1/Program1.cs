@@ -14,9 +14,8 @@
 
   public abstract class Shape
   {
-    #region Properties and Fields
-
-    public ShapeColor Color { get; set; }
+        #region Properties and Fields
+        public ShapeColor Color { get; set; }
 
     public string Name
     {
@@ -127,7 +126,7 @@
   public class Program1
   {
     public static void Main( string[ ] args )
-    {
+        {
       IShapeRepository shapeRepository = new ShapeRepository( ) as IShapeRepository;
 
       Debug.Assert( condition: shapeRepository != null );
