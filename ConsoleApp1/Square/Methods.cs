@@ -1,5 +1,5 @@
 ﻿
-//using System.Diagnostics;
+//using System.Diagnostics
 
 public partial class Square : Shape
 {
