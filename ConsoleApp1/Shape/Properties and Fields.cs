@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+
 public abstract partial class Shape
 {
     #region Properties and Fields

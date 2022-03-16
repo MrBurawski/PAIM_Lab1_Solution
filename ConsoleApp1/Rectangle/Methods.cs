@@ -1,4 +1,5 @@
-﻿public partial class Rectangle : Shape 
+﻿using System.Diagnostics;
+public partial class Rectangle : Shape 
 {
     public Rectangle(string name, double width, double height) : base(name)
     {
