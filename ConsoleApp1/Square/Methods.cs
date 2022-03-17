@@ -1,6 +1,6 @@
 ﻿
-//using System.Diagnostics
-
+using System.Diagnostics;
+//no change
 public partial class Square : Shape
 {
     public Square(string name, double size) : base(name)
