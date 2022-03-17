@@ -1,5 +1,5 @@
 ﻿namespace ZsutPw.Patterns.CSharp
-{
+{l;ll;l
   using System;
   using System.Diagnostics;
 
