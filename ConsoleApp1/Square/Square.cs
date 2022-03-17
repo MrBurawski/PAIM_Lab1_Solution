@@ -1,8 +1,12 @@
 ﻿
+using System;
 using System.Diagnostics;
-//no change
-public partial class Square : Shape
+using System.Collections.Generic;
+using System.Linq;
+public class Square : Shape
 {
+    public double Size { get; private set; }
+
     public Square(string name, double size) : base(name)
     {
         Debug.Assert(condition: size > 0);
